@@ -1,0 +1,13 @@
+{
+  "name": "Anchor Kegel Coach",
+  "short_name": "Anchor",
+  "description": "Guided pelvic floor training with progressive levels and progress tracking.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#eef2f0",
+  "theme_color": "#1d5c6e",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
