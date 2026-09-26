@@ -4,7 +4,9 @@ A guided pelvic floor (Kegel) trainer for men. Ten levels that progress from lyi
 
 ## Use it
 
-Open `index.html` in a browser, or serve the folder (any static host works, including GitHub Pages):
+Live at https://joshcarr.github.io/anchor/ (deployed by `.github/workflows/pages.yml` on every push to `main`).
+
+To run locally, open `index.html` in a browser or serve the folder:
 
 ```sh
 python3 -m http.server 8000
