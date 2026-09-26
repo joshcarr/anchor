@@ -1,6 +1,6 @@
 // Service worker so Anchor works offline once installed.
-const CACHE = "anchor-v2";
-const ASSETS = ["./", "index.html", "styles.css", "app.js", "manifest.webmanifest", "icon.svg"];
+const CACHE = "anchor-v3";
+const ASSETS = ["./", "index.html", "styles.css", "app.js", "manifest.webmanifest", "icon.svg", "apple-touch-icon.png", "icon-192.png", "icon-512.png"];
 
 self.addEventListener("install", (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(ASSETS)).then(() => self.skipWaiting()));
