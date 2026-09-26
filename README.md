@@ -40,4 +40,4 @@ The structure follows common guidance from the NHS, Mayo Clinic and Cleveland Cl
 - `index.html` – page shell
 - `styles.css` – styles, light and dark themes
 - `app.js` – program, session player, tracking
-- `sw.js`, `manifest.webmanifest`, `icon.svg` – installable, offline-capable web app
+- `sw.js`, `manifest.webmanifest`, `icon.svg`, `*.png` – installable, offline-capable web app
